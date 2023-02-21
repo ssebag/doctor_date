@@ -1,0 +1,89 @@
+    {{--
+        <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+            <img class="card-img-top" src="https://www.srisriholistichospitals.com/wp-content/uploads/2020/12/Dermatologynew.png" alt="Card image cap" style="height:15rem">
+            <div class="card-body">
+                <p class="card-text card-text1"><a href="{{route('department.show','1')}}" class="home_link">Dermatology Department</a></p>
+            </div>
+        </div>
+
+        <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+            <img class="card-img-top" src="https://www.aljamila.com/sites/default/files/pictures/March/43681/2019/hl-twthr-mlyt-ltjmyl-l-hytk-730x370.jpg" alt="Card image cap" style="height:15rem">
+            <div class="card-body">
+            <p class="card-text card-text1"><a href="#" class="home_link">Cosmetology Department</a></p>
+            </div>
+        </div>
+        <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+            <img class="card-img-top" src="https://ascc.om/wp-content/uploads/2019/01/dental.jpg" alt="Card image cap" style="height:14rem">
+            <div class="card-body">
+                <p class="card-text card-text1"><a href="{{route('department.show','2')}}" class="home_link">{{-- Dental Treatment Department --}}</a></p>
+            </div>
+        </div>
+        <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+            <img class="card-img-top" src="https://www.mgmhospitalvashi.net/Site/Web/assets/images/Department/gastro.jpg" alt="Card image cap" style="height:14rem">
+            <div class="card-body">
+                <p class="card-text card-text1"><a href="#" class="home_link">{{-- Digestive Department --}}</a></p>
+            </div>
+        </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://static.bookinghealth.com/uploads/blog/1614172466_1612450436_1511199427_otr_shutterstock_403942930-1.jpg" alt="Card image cap" style="height:14rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">{{-- Children Department --}}</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://www.mosoah.com/wp-content/uploads/2020/07/%D8%A7%D9%81%D8%B6%D9%84-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A9-%D9%86%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D8%A8%D9%8A.jpg" alt="Card image cap" style="height:14rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">{{-- Women's department --}}</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://zhrc.in/wp-content/uploads/2021/06/Ortho.jpg" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Orthopedic Department</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://elarizona-hospital.com/wp-content/uploads/2022/07/ENT_img-copy-300x229.png" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Otorhinolaryngology Treatments</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://smcbangla.com/assets/images/new/ophthalmology.jpg" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Department of Ophthalmology</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://medlineplus.gov/images/LaboratoryTests_share.jpg" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Medical Analysis Laboratory</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://img.freepik.com/free-vector/human-bones-realistic-x-ray-shots_1284-29690.jpg?auto=format&h=200" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Department of Radiology</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://sahyadrihospital.com/wp-content/uploads/2021/04/psychiatry.jpg" alt="Card image cap" style="height:13rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Psychiatry</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://kyamch.org/newsite/wp-content/uploads/2021/08/NeuroSurgery.jpg" alt="Card image cap" style="height:15rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">Neurosurgery Department</a></p>
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 18rem; height:20rem">
+        <img class="card-img-top" src="https://arorahandsurgery.com/wp-content/uploads/2020/10/Untitled-design-14.jpg" alt="Card image cap" style="height:14rem">
+        <div class="card-body">
+          <p class="card-text card-text1"><a href="#" class="home_link">MRI</a></p>
+        </div>
+      </div> --}}
+
+      https://www.mgmhospitalvashi.net/Site/Web/assets/images/Department/gastro.jpg
+      Digestive Department
